@@ -1,0 +1,12 @@
+.App{
+  position: relative;
+  overflow-x : clip;
+}
+
+.card {
+  padding: 2rem;
+}
+
+.read-the-docs {
+  color: #888;
+}

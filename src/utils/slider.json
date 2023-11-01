@@ -1,0 +1,83 @@
+[
+  {
+    "name": "BALI",
+    "detail": "Bali, known for its stunning beaches and vibrant culture, is a tropical paradise in Indonesia.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/touronapp-248e4.appspot.com/o/landing_page%2Fbali.jpg?alt=media&token=6f7a72ed-d667-489c-ab55-1b3d5000b63f"
+  },
+  {
+    "name": "THAILAND",
+    "detail": "Thailand is known for its stunning beaches, rich culture, and delicious cuisine.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/touronapp-248e4.appspot.com/o/landing_page%2FThailand.jpg?alt=media&token=6d31fb79-6d85-461a-aa17-4446ae3dfed2"
+  },
+  {
+    "name": "SRI LANKA",
+    "detail": "Sri Lanka is an island nation in South Asia known for its stunning beaches, rich cultural heritage, and diverse wildlife.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/touronapp-248e4.appspot.com/o/landing_page%2FSrilanka.jpg?alt=media&token=d772cf76-f17d-4e4d-b470-8d6e90d5bc5c"
+  },
+  {
+    "name": "MAURITIUS",
+    "detail": "Mauritius is a picturesque island nation in the Indian Ocean known for its stunning beaches, vibrant culture, and diverse wildlife.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/touronapp-248e4.appspot.com/o/landing_page%2FMauritius.jpg?alt=media&token=5d885b92-e3bd-4d80-9b77-21fccd6d3c7b"
+  },
+  {
+    "name": "MALDIVES",
+    "detail": "The Maldives is a tropical paradise composed of stunning coral atolls in the Indian Ocean, known for its crystal-clear waters and overwater bungalows.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/touronapp-248e4.appspot.com/o/landing_page%2FMaldives.jpg?alt=media&token=3497d663-826b-4f4e-9752-c4ebfc4dd208"
+  },
+  {
+    "name": "VIETNAM",
+    "detail": "Vietnam is a Southeast Asian country known for its rich history and stunning landscapes.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/touronapp-248e4.appspot.com/o/landing_page%2FVietnam.jpg?alt=media&token=f4e0f3e7-3d55-4bc4-b523-24e180bbdfc3"
+  },
+  {
+    "name": "LONDON",
+    "detail": "London is the capital city of the United Kingdom, known for its rich history and diverse culture.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/touronapp-248e4.appspot.com/o/landing_page%2FLondon.jpg?alt=media&token=ba984112-339a-45e2-ae54-6f6c783e2bad"
+  },
+  {
+    "name": "AUSTRALIA",
+    "detail": "Australia is known for its stunning natural landscapes, diverse wildlife, and unique indigenous culture.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/touronapp-248e4.appspot.com/o/landing_page%2FAustralia.jpg?alt=media&token=cbdc9c1b-5239-4887-b564-fe5097b4df27"
+  },
+  {
+    "name": "DUBAI",
+    "detail": "Dubai, a modern marvel in the desert, where luxury meets innovation.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/touronapp-248e4.appspot.com/o/landing_page%2Fdubai.jpg?alt=media&token=60f20a2d-e532-4d04-9a6a-704d362b3485"
+  },
+  {
+    "name": "GERMANY",
+    "detail": "Germany is known for its rich history, precision engineering, and diverse cultural heritage.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/touronapp-248e4.appspot.com/o/landing_page%2Fgermany.jpg?alt=media&token=9f231581-697e-4d1e-b05c-2212dee9ccd2"
+  },
+  {
+    "name": "ITALY",
+    "detail": "Italy is a country known for its rich history, stunning art, and delicious cuisine.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/touronapp-248e4.appspot.com/o/landing_page%2Fitaly.jpg?alt=media&token=8a7266fe-960b-4fa3-bd52-46ecf944ae90"
+  },
+  {
+    "name": "PARIS",
+    "detail": "Strolling along the Seine, romance in the air.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/touronapp-248e4.appspot.com/o/landing_page%2Fparis.jpg?alt=media&token=35d07b16-cc89-4b24-a2b1-4e530b8a0718"
+  },
+  {
+    "name": "SPAIN",
+    "detail": "Spain is a vibrant European country known for its rich culture, diverse landscapes, and delicious cuisine.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/touronapp-248e4.appspot.com/o/landing_page%2Fspain.jpg?alt=media&token=1a9c1a72-dbdf-495f-b896-1b32b31a4a9f"
+  },
+  {
+    "name": "SYDNEY",
+    "detail": "Sydney's iconic Opera House graces its stunning harbor.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/touronapp-248e4.appspot.com/o/landing_page%2Fsydney.jpg?alt=media&token=e54096fd-7a28-4a1f-a8e3-4c26327fe890"
+  },
+  {
+    "name": "TURKEY",
+    "detail": "Turkey is a transcontinental country straddling Eastern Europe and Western Asia, known for its rich history, diverse culture, and stunning landscapes.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/touronapp-248e4.appspot.com/o/landing_page%2Fturkey.jpg?alt=media&token=cb591d8d-bfd5-430a-8ee4-019326971795"
+  },
+  {
+    "name": "ZURICH",
+    "detail": "Zurich is the largest city in Switzerland and a global financial hub known for its picturesque setting on Lake Zurich and its vibrant cultural scene.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/touronapp-248e4.appspot.com/o/landing_page%2Fzurich.jpg?alt=media&token=3f24e357-1d65-44cf-acd6-f8eba70f6791"
+  }
+
+]

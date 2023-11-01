@@ -1,0 +1,95 @@
+.f-container{
+    justify-content: space-between;
+    border-top: 0.1rem solid rgba(128,128,128,0.143);
+    border-radius: 10px 10px 0 0 ;
+    background: rgba(245, 244, 244, 0.979);
+}
+.f2-container{
+    border-top: 0.1rem solid rgba(128,128,128,0.143);
+    border-radius: 0 0 10px 10px  ;
+    background: rgba(245, 244, 244, 0.979);
+    height: max-content;
+    justify-content: center;
+}
+.f-left{
+    gap: 1rem;
+    margin-left: 2rem;
+}
+.f-social{
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.f-right{
+    align-items: center;
+    text-align: center;
+    margin-right: 2rem;
+
+}
+
+.add{
+    text-align: right;
+}
+
+.f-menu{
+    gap: 1.3rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+.copyright{
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+/* .badge{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    margin-right: 8rem;
+}
+.googlebadge{
+    width: 4rem;
+    height: max-content;
+    cursor: pointer;
+}
+.applebadge{
+    width: 3rem;
+    cursor: pointer;
+}
+.g-text{
+    align-items: center;
+    justify-content: center;
+    color: rgb(42, 42, 43);
+    margin-right: 7rem;
+} */
+@media (max-width:768px){
+    .f-right{
+        margin: 0;
+    }
+    .f-left{
+        align-items: center;
+        text-align: center;
+    }
+    .f-container{
+        justify-content: center;
+    }
+    .f-container>div{
+        align-items: center !important;
+        text-align: center;
+    }
+    .f-menu{
+        gap: 1rem;
+    }
+    /* .badge{
+        justify-content: center;
+        align-items: center;
+        margin-left: 8rem;
+    }
+    .g-text{
+        margin-left: 7rem;
+    } */
+    .add{
+        text-align: center;
+    }
+}

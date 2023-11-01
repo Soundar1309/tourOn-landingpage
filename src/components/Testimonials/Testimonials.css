@@ -1,0 +1,95 @@
+.t-head {
+  margin-top: 1rem;
+}
+
+.t-container{
+  overflow: hidden;
+}
+
+.t-inner {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.t-headtext {
+  font-size: 0.5rem;
+}
+
+.t-button {
+  position: absolute;
+  gap: 1rem;
+  top: -4rem;
+  right: 3%;
+}
+
+.t-button button {
+  font-size: 1.2rem;
+  padding: 0.2rem 0.8rem;
+  color: rgb(234, 102, 19);
+  border: none;
+  border-radius: 7px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.t-button > :nth-child(1) {
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+}
+
+.t-button > :nth-child(2) {
+  background-color: #d3d3d4;
+}
+
+.t-card {
+  gap: 0.5rem;
+  padding: 1rem;
+  border-radius: 20px;
+  max-width: max-content;
+  margin: auto;
+  transition: all 300ms ease-in;
+}
+
+.t-card > img {
+  width: 100%;
+  max-width: 16rem;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 300ms ease-in;
+}
+
+.t-card>img:hover{
+  scale: 0.9;
+}
+
+.t-card > :nth-child(2) {
+  font-size: 1.5rem;
+}
+
+.t-card > :nth-child(3) {
+  font-size: 0.7rem;
+  width: 15rem;
+  text-align: center;
+}
+
+.reviewText {
+  color: orange;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .t-head {
+    align-items: center;
+  }
+  .t-button {
+    position: initial;
+    margin-bottom: 5%;
+  }
+  .flexCenter{
+    display: flex;
+  row-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  }
+}
