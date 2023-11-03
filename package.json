@@ -1,5 +1,6 @@
 {
-  "name": "trip-website",
+  "name": "tourOn",
+  "homepage": "https://campaign.touron.in/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
