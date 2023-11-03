@@ -148,8 +148,8 @@ export default function Popup({ open, setOpen, step, setStep }) {
               onSubmit={handleSubmit1}
             >
               <h1 className=" font-bold text-stone-700 text-[27px] text-center font-sans">Country</h1>
-              <div className=" grid grid-cols-2 gap-4 mb-3">
-                <div onClick={handleChangeDomestic} className={` flex items-center justify-center gap-2 border ${country==="domestic" ? " border-[#829af8] bg-[#5071f7] text-slate-50" : "border-slate-400 bg-slate-50 text-stone-700"} duration-300 rounded py-1.5 px-2 font-semibold cursor-pointer`}>
+              <div className="cols-2 gap-3 mb-3 sm:grid grid-cols-2">
+                <div onClick={handleChangeDomestic} className={` flex items-center mb-3 sm:mb-0 justify-center gap-2 border ${country==="domestic" ? " border-[#829af8] bg-[#5071f7] text-slate-50" : "border-slate-400 bg-slate-50 text-stone-700"} duration-300 rounded py-1.5 px-2 font-semibold cursor-pointer`}>
                   <span><GiIndianPalace /></span>
                   <span className=" mt-0.5">Domestic</span>
                 </div>
@@ -167,6 +167,7 @@ export default function Popup({ open, setOpen, step, setStep }) {
                 </button>
                 <button
                   type="submit"
+                  disabled={country ? false : true}
                   className=" border border-[#3E64FB] py-1.5 px-2 rounded text-[#fafafa] font-semibold bg-[#526ede] hover:text-[#526ede] hover:bg-[#fafafa] duration-300"
                 >
                   Next

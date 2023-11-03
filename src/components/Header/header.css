@@ -20,17 +20,19 @@
     display: none;
 }
 
-@media (max-width:768px) {
+@media (max-width:648px) {
     .h-wrapper{
         margin:0;
     }
     .h-container>img{
-        margin-left: -20rem;
+        margin-left: -15rem;
     }
     .h-menu{
         position: absolute;
         font-weight: 500;
-        margin-left: 15rem;
-
+        margin-left: 19rem;
+        width: 10rem;
+        height: 4rem;
+        font-size: 0.8rem;
     }
 }

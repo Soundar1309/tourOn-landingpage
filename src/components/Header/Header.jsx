@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <section className="h-wrapper">
       <div className="h-container flexCenter paddings innerWidth">
-        <img src="./Asset 2.png" alt="logo" width={130} height={100} />
+        <img src="https://firebasestorage.googleapis.com/v0/b/touronapp-248e4.appspot.com/o/landing_page%2FAsset%202.png?alt=media&token=bc56a0fc-1c79-42f4-b4f5-bedb27ff05be" alt="logo" width={120} height={100} />
 
          {/* Menu */}
         <div className="flexCenter h-menu">

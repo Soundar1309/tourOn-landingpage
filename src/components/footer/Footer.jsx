@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="paddings innerWidth flexCenter f-container">
         {/* left side */}
         <div className="flexColStart f-left">
-          <img src="./logo.png" alt="Logo" width={110} />
+          <img src="https://firebasestorage.googleapis.com/v0/b/touronapp-248e4.appspot.com/o/landing_page%2Flogo.png?alt=media&token=723d4199-36ac-4007-b821-aa1376755c90" alt="Logo" width={110} />
 
           <span className="secondaryText">
             Our Vision is to make happy all people <br />
