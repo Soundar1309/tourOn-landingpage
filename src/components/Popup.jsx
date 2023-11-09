@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import MenuItem from "@mui/material/MenuItem";
-import FormControl from "@mui/material/FormControl";
-import Select from "@mui/material/Select";
-import InputLabel from "@mui/material/InputLabel";
+// import MenuItem from "@mui/material/MenuItem";
+// import FormControl from "@mui/material/FormControl";
+// import Select from "@mui/material/Select";
+// import InputLabel from "@mui/material/InputLabel";
 import axios from "axios";
 import { toast } from "react-toastify";
 import { GiIndianPalace } from "react-icons/gi";
@@ -15,8 +15,8 @@ export default function Popup({ open, setOpen, step, setStep }) {
     email: "",
     phone: "",
   });
-  const [enteredOTP, setEnteredOTP] = useState();
-  const [otp, setOtp] = useState();
+  // const [enteredOTP, setEnteredOTP] = useState();
+  // const [otp, setOtp] = useState();
   const handleChangeDomestic = () => {
     setCountry("domestic")
   };
@@ -24,8 +24,8 @@ export default function Popup({ open, setOpen, step, setStep }) {
     setCountry("international")
   }
 
-  const [showEnterOTP, setShowEnterOTP] = useState(false);
-  const [verified, setVerified] = useState(false);
+  // const [showEnterOTP, setShowEnterOTP] = useState(false);
+  // const [verified, setVerified] = useState(false);
 
   const handleClosePopup = () => {
     setOpen(false);
@@ -35,64 +35,64 @@ export default function Popup({ open, setOpen, step, setStep }) {
       phone: "",
     })
     setCountry("")
-    setEnteredOTP()
-    setOtp()
-    setShowEnterOTP(false)
+    // setEnteredOTP()
+    // setOtp()
+    // setShowEnterOTP(false)
     setStep(0)
-    setVerified(false)
+    // setVerified(false)
   };
-  const handleVerify1 = () => {
-    if (form.email === "" || form.phone === "" || form.name === "") {
-      toast.error("Please fill all the fields");
-    } else if (form.phone.length === 10) {
-      const otp = Math.floor(1000 + Math.random() * 9000);
-      axios
-        .get(
-          `https://2factor.in/API/V1/${import.meta.env.VITE_2FACTOR_API_KEY}/SMS/${
-            form.phone
-          }/${otp}/OTP1`
-        )
-        .then((res) => {
-          toast.success("Voice OTP sent successfully");
-          setOtp(otp);
-          setOpen(true);
-          setStep(2);
-          setShowEnterOTP(true);
-          console.log(res);
-        })
-        .catch((err) => {
-          console.log(err);
-          toast.error("Something went wrong");
-        });
-    } else {
-      toast.error("Number should be 10 digit");
-    }
-  };
-  const handleVerify2 = () => {
-    if (enteredOTP.length === 4) {
-      axios
-        .get(
-          `https://2factor.in/API/V1/${
-            import.meta.env.VITE_2FACTOR_API_KEY
-          }/SMS/VERIFY3/${form.phone}/${enteredOTP}`
-        )
-        .then((res) => {
-          console.log(res);
-          if(res.data.Status === "Success"){
-            toast.success("OTP Verified successfully");
-            setVerified(true);
-          } else if(res.data.Status=== "Error"){
-            toast.error("Invalid OTP") 
-          }
-        })
-        .catch((err) => {
-          console.log(err);
-          toast.error("Something went wrong");
-        });
-    } else {
-      toast.error("Number should be 4 digit");
-    }
-  };
+  // const handleVerify1 = () => {
+  //   if (form.email === "" || form.phone === "" || form.name === "") {
+  //     toast.error("Please fill all the fields");
+  //   } else if (form.phone.length === 10) {
+  //     const otp = Math.floor(1000 + Math.random() * 9000);
+  //     axios
+  //       .get(
+  //         `https://2factor.in/API/V1/${import.meta.env.VITE_2FACTOR_API_KEY}/SMS/${
+  //           form.phone
+  //         }/${otp}/OTP1`
+  //       )
+  //       .then((res) => {
+  //         toast.success("Voice OTP sent successfully");
+  //         setOtp(otp);
+  //         setOpen(true);
+  //         setStep(2);
+  //         setShowEnterOTP(true);
+  //         console.log(res);
+  //       })
+  //       .catch((err) => {
+  //         console.log(err);
+  //         toast.error("Something went wrong");
+  //       });
+  //   } else {
+  //     toast.error("Number should be 10 digit");
+  //   }
+  // };
+  // const handleVerify2 = () => {
+  //   if (enteredOTP.length === 4) {
+  //     axios
+  //       .get(
+  //         `https://2factor.in/API/V1/${
+  //           import.meta.env.VITE_2FACTOR_API_KEY
+  //         }/SMS/VERIFY3/${form.phone}/${enteredOTP}`
+  //       )
+  //       .then((res) => {
+  //         console.log(res);
+  //         if(res.data.Status === "Success"){
+  //           toast.success("OTP Verified successfully");
+  //           setVerified(true);
+  //         } else if(res.data.Status=== "Error"){
+  //           toast.error("Invalid OTP") 
+  //         }
+  //       })
+  //       .catch((err) => {
+  //         console.log(err);
+  //         toast.error("Something went wrong");
+  //       });
+  //   } else {
+  //     toast.error("Number should be 4 digit");
+  //   }
+  // };
 
   const handleSubmit1 = (e) => {
     e.preventDefault();
@@ -120,11 +120,11 @@ export default function Popup({ open, setOpen, step, setStep }) {
           phone: "",
         })
         setCountry("")
-        setEnteredOTP()
-        setOtp()
-        setShowEnterOTP(false)
+        // setEnteredOTP()
+        // setOtp()
+        // setShowEnterOTP(false)
         setStep(0)
-        setVerified(false)
+        // setVerified(false)
       })
       .catch((err) => {
         console.log(err);
@@ -207,7 +207,7 @@ export default function Popup({ open, setOpen, step, setStep }) {
                     }
                     required
                   />
-                  <div
+                  {/* <div
                     className="group/button overflow-hidden relative font-medium py-1.5 max-[410px]:px-1 px-6 text-center rounded text-[#fafafa] bg-gradient-to-r from-[#3E64FB] to-[#2C4DCF] w-40 cursor-pointer"
                     onClick={handleVerify1}
                   >
@@ -217,9 +217,9 @@ export default function Popup({ open, setOpen, step, setStep }) {
                     <div className="absolute invisible duration-300 group-hover/button:-translate-y-6 group-hover/button:visible max-[410px]:ml-4 ml-2">
                       Get OTP
                     </div>
-                  </div>
+                  </div> */}
                 </div>
-                {showEnterOTP && (
+                {/* {showEnterOTP && (
                   <div className=" flex justify-center items-center gap-1">
                     <input
                       className=" focus:outline-none py-1.5 px-2 rounded border border-stone-400 w-full text-stone-800"
@@ -241,7 +241,7 @@ export default function Popup({ open, setOpen, step, setStep }) {
                       </div>
                     </div>
                   </div>
-                )}
+                )} */}
               </div>
               <div className="grid grid-cols-2 justify-center items-center gap-2 mt-1">
                 <button
@@ -251,7 +251,7 @@ export default function Popup({ open, setOpen, step, setStep }) {
                   Cancel
                 </button>
                 <button
-                  disabled={verified ? false : true}
+                  disabled={form ? false : true}
                   type="submit"
                   className=" border border-[#3E64FB] py-1.5 px-2 rounded text-[#fafafa] font-semibold bg-[#526ede] hover:text-[#526ede] hover:bg-[#fafafa] duration-300"
                 >
