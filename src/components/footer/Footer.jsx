@@ -6,7 +6,7 @@ import { GrMail } from "react-icons/gr";
 const Footer = () => {
   return (
     <section className="f-wrapper">
-      <div className="paddings innerWidth flexCenter f-container">
+      <div className="paddings flexCenter f-container">
         {/* left side */}
         <div className="flexColStart f-left">
           <img src="https://firebasestorage.googleapis.com/v0/b/touronapp-248e4.appspot.com/o/landing_page%2Flogo.png?alt=media&token=723d4199-36ac-4007-b821-aa1376755c90" alt="Logo" width={110} />
@@ -82,7 +82,7 @@ const Footer = () => {
           </div> */}
         </div>
       </div>
-      <div className="paddings innerWidth flexCenter f2-container">
+      <div className="paddings flexCenter f2-container">
         <span className="copyright">
           © 2023{" "}
           <span>
